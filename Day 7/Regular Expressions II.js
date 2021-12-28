@@ -5,7 +5,7 @@ re, that matches any string  satisfying both of the following conditions:
     consists of one or more upper and/or lowercase English alphabetic letters (i.e., [a-z] and [A-Z]). */
 
 function regexVar() {
-  var re = (/^(Mr|Mrs|Ms|Dr|er)(\.)([a-zA-Z])+$/);
+  var re = (/^(Mr|Mrs|Ms|Dr|Er)(\.)([a-zA-Z])+$/);
   
   return re;
 }
